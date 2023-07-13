@@ -8,7 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent
   },
   {
@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '/home'
+    redirectTo: ''
   }
 ];
 
