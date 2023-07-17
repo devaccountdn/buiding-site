@@ -223,7 +223,7 @@
   @media (max-width: 699px){
    .menu > li:nth-child(1){
       display: none;
-    }  
+    } 
   }
 
   @media (min-width: 700px) and (max-width : 986px) {
@@ -269,7 +269,6 @@
       display: none;
     }
   }
-  
   .router-links:hover {
     outline: 0px solid transparent;
     padding: 5px 5px;
@@ -278,3 +277,9 @@
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
+
+  .menu > li:nth-child(1){
+    .router-links:hover {
+      background-color: #000 ;
+    }
+  } 
