@@ -93,14 +93,14 @@ ul{
     width: 25vw;
    }
    h4 {
-    color: gold;
+    color: #FFF;
     width: 25vw;
     text-align: justify
    }
    .links {
         display: flex;
         width: 25vw;
-        justify-content: space-evenly;
+        justify-content: space-between;
         // padding-left: 50%;
         gap: 5px;
         .link-icons {
@@ -145,7 +145,7 @@ ul{
     ul li a{
         font-size: 16px;
         text-transform: capitalize;
-        color: gold;
+        color: #FFF;
         text-decoration: none;
         font-weight: 300;
         display: block;
